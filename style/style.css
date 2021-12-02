@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+img {
+    width: 302px;
+    padding: 24px 24px 0;
+}
+
+/*======= CARD =======*/
+.card {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: hsl(216, 50%, 16%);
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-top: 152px;
+    margin-left: 545px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container {
+    padding: 2px 16px;
+    width: 320px;
+  }
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 2;
+    color: white;
+    padding-left: 10px;
+}
+
+.cardText {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+}
+
+.ethereum {
+    width: 11px;
+    padding: 0 10px 0 10px;
+}
+
+.text2 {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.text3 {
+    color: hsl(215, 51%, 70%);
+    margin-left: 70px;
+    font-family: 'Outfit', sans-serif;
+}
+.clock {
+    width: 16px;
+    padding-top: 0;
+    padding-right: 10px;
+}
+
+/*======= HORIZONTAL LINE =======*/
+.tableCont::after {
+    content:  '.';
+	font-size: 0;
+	display: block;
+	height: 1px;
+	width: 302px;
+	background: hsl(215, 32%, 27%);
+	margin: 5px 0 28px;
+}
+
+.avatar {
+    width: 33px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+    margin-top: 0;
+    float: left;
+
+}
+.text4 {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+/*======= ATTRIBUTION =======*/
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 100px;
+    align-self: center;
+    padding-right: 0px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

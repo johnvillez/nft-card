@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
 
-  Equilibrium #3429
+  <div class="card">
+    <img src="images/image-equilibrium.jpg" alt="Equilibrium"/>
+    <div class="container">
+      <h3>Equilibrium #3429</h3>
+      <p class="cardText">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="tableCont">
+        <table>
+          <tr>
+            <td> <p class="text2"><img src="images/icon-ethereum.svg" alt="Ethereum Icon" class="ethereum">0.041 ETH</p></td>
+            <td><p class="text3"><img src="images/icon-clock.svg" class="clock" alt="Clock"/>3 days left</p></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <img src="images/image-avatar.png" class="avatar" alt="Jules Wyvern"/>
+        <p class="text4"><span class="bluetext">Creation of</span> Jules Wyvern</p>
+      </div>
+    </div>
 
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
+  </div>
   
-  Creation of Jules Wyvern
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">John Michael Villez</a>.
   </div>
 </body>
 </html>
